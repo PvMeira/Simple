@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="simple">
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Simple</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/efeitos.css">
+    <!--angular core -->
+    <script src="imports/js/angular.min.js"></script>
+    <script src="imports/js/angular-animate.min.js"></script>
+    <script src="imports/js/angular-route.min.js"></script>
+    <script src="imports/js/angular-resource.min.js"></script>
+    <script src="main.js"></script>
+    <!--book related -->
+    <script src="js/controllers/book/bookControllerForm.js"></script>
+    <script src="js/controllers/book/booksController.js"></script>
+    <!--Directives -->
+
+    <!--Services -->
+    <script src="js/services/bookService.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <ng-view></ng-view>
+
+</div> <!-- end container -->
+</body>
+</html>
